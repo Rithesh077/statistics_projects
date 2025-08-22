@@ -1,0 +1,9 @@
+outputs/
+.Rhistory
+.RData
+.Rproj.user/
+*.tmp
+*.swp
+*.log
+.DS_Store
+Thumbs.db
