@@ -4,8 +4,11 @@ library(stringr)
 library(tidytext)
 library(textdata)
 
-# load reviews dataset (assuming in data folder)
-reviews <- read.csv("../data/online_sales.csv")
+zip_file <- here::here("data/Reviews.csv.zip")
+unzip_file <- unzip(zip_file, exdir = tempdir())
+
+# load reviews dataset
+reviews <- read.csv(unzip_file)
 
 # clean text
 texts <- reviews %>%
@@ -36,4 +39,4 @@ final_reviews <- reviews %>%
     is.na(sentiment_scores) | sentiment_scores == 0 ~ "neutral"
   ))
 
-View(final_reviews)
+saveRDS(final_reviews, file = here::here("outputs/tables/final_reviews.rds"))
