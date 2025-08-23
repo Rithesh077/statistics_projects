@@ -6,11 +6,12 @@ The focus is on **statistical thinking** and **analytical methods** rather than 
 
 ## Projects
 
-### 1. Sales Data Analysis
+### 1. Retail Demand Forecasting & Inventory Optimization
 
-- Cleaned and transformed e-commerce sales data.
-- Conducted **descriptive statistics** and correlation studies (Pearson, Spearman).
-- Analyzed the effect of **discount strategies** on **customer ratings**.
+- Modeled weekly product demand using **time series forecasting** (ARIMA).
+- Calculated **optimal reorder quantities** to balance stockouts and overstocking.
+- Dataset: ~49,000 simulated e-commerce transactions.
+- Applications: inventory planning, purchasing decisions, warehouse optimization.
 
 ### 2. Sentiment Analysis of Product Reviews
 
@@ -19,12 +20,23 @@ The focus is on **statistical thinking** and **analytical methods** rather than 
 - Classified reviews as **Positive, Negative, or Neutral**.
 - Extracted insights on **customer satisfaction and opinion trends**.
 
-### 3. Retail Demand Forecasting & Inventory Optimization
+### 3. Sales Data Analysis
 
-- Modeled weekly product demand using **time series forecasting** (ARIMA).
-- Calculated **optimal reorder quantities** to balance stockouts and overstocking.
-- Dataset: ~49,000 simulated e-commerce transactions.
-- Applications: inventory planning, purchasing decisions, warehouse optimization.
+- Cleaned and transformed e-commerce sales data.
+- Conducted **descriptive statistics** and correlation studies (Pearson, Spearman).
+- Analyzed the effect of **discount strategies** on **customer ratings**.
+
+## Datasets
+
+### 1. Retail Demand Forecasting & Inventory Optimization
+
+- https://www.kaggle.com/datasets/yusufdelikkaya/online-sales-dataset
+
+### 2. Sentiment Analysis of Product Reviews
+
+- https://www.kaggle.com/datasets/arhamrumi/amazon-product-reviews
+
+### 3. Sales Data Anlysis
 
 ## Statistical Concepts Applied
 
@@ -53,8 +65,6 @@ The focus is on **statistical thinking** and **analytical methods** rather than 
 3. Open the R or Python Script.
 4. Run the code to produce the desired results.
 5. Outputs are saved in output/figures or output/tables directories.
-
-## Future Enhancements
 
 ## Future Enhancements
 
