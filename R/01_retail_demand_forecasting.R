@@ -6,7 +6,7 @@ library(tidyr)
 library(ggplot2)
 
 # data import (corrected path)
-sales_data <- read.csv("../data/online_sales.csv")
+sales_data <- read.csv(here::here("data/online_sales.csv"))
 
 # convert InvoiceDate to Date
 sales_data <- sales_data %>%
@@ -52,4 +52,4 @@ cat(paste("Reorder Quantity for", chosen_product, ":", reorder_quantity, "\n"))
 autoplot(forecast_result) +
   ggtitle(paste("4 Week Demand Forecast for", chosen_product)) +
   xlab("Weeks") + ylab("Units Sold")
-ggsave("../outputs/figures/retail_forecast.png", width = 8, height = 5)
+ggsave(here::here("outputs/figures/retail_forecast.png"), width = 8, height = 5)
