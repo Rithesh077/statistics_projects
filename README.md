@@ -39,3 +39,6 @@ the running notes live in docs/.
 
 - r: run scripts in the r folder, or run the shiny app
 - python: create a venv, install dependencies, run scripts in the python folder
+
+
+- R_academics TSA lab 9 dataset: https://fred.stlouisfed.org/series/CPIAUCSL 
